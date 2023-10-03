@@ -11,7 +11,7 @@ loop do
   else
     puts "------------- TADAM (ta pyramide) :-------------"
     user_number.times do |x|
-      puts " " * (user_number - x) + "#" * (x + 1) # On met un espace que l'on multiplie par (le nombre de l'utilisateur - l'itération de la boucle) pour inverser les espaces. Si on choisit 5, on aura 5-0 = 5 espace pour le premier #. Pour le 5# on aura 5-4 = 0 espace
+      puts " " * (user_number - x) + "#" * (x + 1) # On met un espace que l'on multiplie par (le nombre de l'utilisateur - l'itération de la boucle) pour inverser les espaces. Si on choisit 5, on aura 5-0 = 5 espace pour le premier #. Pour le 5# on aura 5-4 = 1 espace
     end
     break
   end

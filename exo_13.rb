@@ -8,7 +8,7 @@ array_emails = []
 
 # Je fais une boucle pour créer des emails
 (1..50).each do |x|
-  number = format('%02i', x) # format('%02i') veut dire que je veux forcément un 0 avant mon chiffre
+  number = format('%03i', x) # format('%02i') veut dire que je veux forcément un 0 avant mon chiffre
   email = "jean.aymar#{number}@email.com"
   array_emails << email # Je mets mes éléments créés dans le tableau
 end
